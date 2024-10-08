@@ -1,0 +1,38 @@
+.modal{
+    background-color:#ffffff;
+    height: 310px;
+    width: 260px;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+ }
+body{
+   background-image:url(../assent/fundo.jpg);
+   background-repeat:no-repeat;
+   background-size: cover;
+
+}
+#logo-img{
+  height: 65px;
+width: 200px;
+
+}
+button{
+   background-color: blue;
+   height: 15px;
+   width: 100px;
+   border-radius: 7px;
+   border: none;
+   color:white;
+}
+.caixa-butoes{
+    height: 250px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-radius: 5px;
+    background-color: rgba(0, 255, 255, 0.185);
+}

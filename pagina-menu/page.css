@@ -1,0 +1,65 @@
+nav {
+    width: 250px;
+    background: color #000000;;
+    height: 100vh;
+    color: #000;
+    padding: 20px;
+    float: left;
+    overflow-y: auto;
+    position: relative;
+}
+
+.profile {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile img {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+}
+
+.profile p {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.profile span {
+    font-size: 14px;
+    color: #ccc;
+}
+
+ul {
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+
+    
+}
+
+ul li {
+    padding: 15px 0;
+    border-bottom: 1px solid #a08f8f;
+   
+}
+
+ul li:hover {
+    background-color: #c0b6b6;
+}
+
+.main-content {
+  
+    padding: 20px;
+  
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+.classes {
+    display: flex;
+    gap: 20px;
+   
+    }
