@@ -1,38 +1,99 @@
-.modal{
-    background-color:#ffffff;
-    height: 310px;
-    width: 260px;
-    position:absolute;
+body,
+html {
+    margin: 0;
+}
+
+section {
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
-
- }
-body{
-   background-image:url(../assent/fundo.jpg);
-   background-repeat:no-repeat;
-   background-size: cover;
-
+    position: absolute;
+    transform: translate(-50%, -50%);
 }
-#logo-img{
-  height: 65px;
-width: 200px;
 
+.caixa-estrutura {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+    margin-top: 15%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center ;
 }
-button{
-   background-color: blue;
-   height: 15px;
-   width: 100px;
-   border-radius: 7px;
-   border: none;
-   color:white;
+
+#logo {
+    display: block;
+    margin: 0 auto 20px;
+    width: 260px;
+    height: 70;
 }
-.caixa-butoes{
-    height: 250px;
+
+.inputs input {
+    border-radius:15px;
+    margin-bottom: 15px;
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: space-evenly;
-    border-radius: 5px;
-    background-color: rgba(0, 255, 255, 0.185);
+    height: 50px;
+}
+
+#botao-azul {
+    height: 40px;
+    width: 60%;
+    margin-left: 20%;
+    border: none;
+    border-radius: 15px;
+    background-color: #0751a0;
+    color: white;
+
+}
+
+#botao-azul:hover{
+    background-color: #053a74;
+}
+
+#message {
+    margin-top: 15px;
+}
+
+header {
+    padding: 20px;
+    text-align: center;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+body {
+   background-image: url("../assent/fundo.jpg.jpeg");
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+
+.fonte {
+    font-weight: bold;
+}
+
+.xd {
+    color: #0751a0;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+    margin-right: 10px;
+    display: flex;
+    justify-content: flex-end;
 }
